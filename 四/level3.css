@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    display: flex;
+    width: 1536px;
+    height: 300px;
+    justify-content: space-around;
+    background-color: black;
+}
+ul{
+    list-style: none; 
+    line-height: 300px;
+    
+}
+li{
+    height:60px;
+    width:80px;
+    float:left ;
+    border: 0px;
+    background-color: white;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 100px;
+}
+li:hover{
+    background-color: yellow;
+}
